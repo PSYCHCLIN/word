@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучение иностранных слов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #word {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        #answer {
+            font-size: 1.5em;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Изучение иностранных слов</h1>
+    <div id="word">Слово</div>
+    <input type="text" id="answer" placeholder="Введите перевод">
+    <br>
+    <button onclick="checkAnswer()">Проверить</button>
+    <script src="/static/main.js"></script>
+</body>
+</html>
